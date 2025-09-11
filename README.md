@@ -7,7 +7,7 @@ We employ Akaike’s Bayesian Information Criterion (ABIC) to quantify the margi
 For details on the methodology and workflow of the D-DABIC inversion method, please refer to:
 Song, H., Yu, P., Usui, Y., Uyeshima, M., Diba, D., & Zhang, L. (2025). Three-dimensional Magnetotelluric Inversion based on a Data Space variant of Akaike’s Bayesian Information Criterion. Geophysics, [Volume], [Issue], [Page Range]. 
 
-For more information about the original FEMTIC code (e.g., forward modeling, mesh design), please refer to the FEMTIC repository: https://github.com/yoshiya-usui/femtic
+For more information about the original FEMTIC code (e.g., forward modeling, mesh design), please refer to the FEMTIC repository: https://github.com/yoshiya-usui/femtic.
 
 ## Functional overview
 Except for the method used to determine the regularization parameter, all other functionalities of FEMTIC-DABIC are consistent with those of the original FEMTIC. These inherited features include (but are not limited to) 3-D MT forward modeling for various mesh types, classic Gaussian-Newton optimization, and support for various data type.
