@@ -9,10 +9,6 @@ For details on the methodology and workflow of the D-DABIC inversion method, ple
 
 For more information about the original FEMTIC code (e.g., forward modeling, mesh design), please refer to the FEMTIC repository: https://github.com/yoshiya-usui/femtic.
 
-## Functional overview
-Except for the method used to determine the regularization parameter, all other functionalities of FEMTIC-DABIC are consistent with those of the original FEMTIC (v4.2). These inherited features include (but are not limited to) 3-D MT forward modeling for various mesh types, classic Gaussian-Newton optimization, and support for various data type.
-
-
 ## Release note
 ***v1.3*** Sep. 11, 2025: Introduced a reference model (mr) into the inversion optimization workflow, which enables implementing depth of investigation (DOI) for model appraisal.
 
