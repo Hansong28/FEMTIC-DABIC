@@ -5,7 +5,7 @@ Unlike the original FEMTIC, FEMTIC-DABIC uses Brent line search in each iteratio
 We employ Akaike’s Bayesian Information Criterion (ABIC) to quantify the marginal likelihood function; furthermore, to adapt this method to data-space inversion, we propose a data-space variant of ABIC, termed DABIC, and the data-space inversion based on DABIC is referred to as D-DABIC inversion method.
 
 For details on the methodology and workflow of the D-DABIC inversion method, please refer to:\
-Song, H., Yu, P., Usui, Y., Uyeshima, M., Diba, D., & Zhang, L. (2025). Three-dimensional Magnetotelluric Inversion based on a Data Space variant of Akaike’s Bayesian Information Criterion. Geophysics, [Volume], [Issue], [Page Range]. 
+***Song, H., Yu, P., Usui, Y., Uyeshima, M., Diba, D., & Zhang, L. (2025). Three-dimensional Magnetotelluric Inversion based on a Data Space variant of Akaike’s Bayesian Information Criterion. Geophysics, [Volume], [Issue], [Page Range].*** 
 
 For more information about the original FEMTIC code (e.g., forward modeling, mesh design), please refer to the FEMTIC repository: https://github.com/yoshiya-usui/femtic.
 
