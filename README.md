@@ -1,7 +1,7 @@
 # FEMTIC-DABIC
 FEMTIC-DABIC is a 3-D magnetotelluric (MT) inversion code developed based on FEMTIC (v4.2).
 
-FEMTIC-DABIC uses Brent line search in each iteration to find the statistically optimal regularization parameter (α) that maximizes the marginal likelihood function, which is a  function of α. 
+FEMTIC-DABIC uses Brent line search in each iteration to find the statistically optimal regularization parameter (*α*) that maximizes the marginal likelihood function, which is a  function of *α*. 
 We employ Akaike’s Bayesian Information Criterion (ABIC) to quantify the marginal likelihood function; furthermore, to adapt this method to data-space inversion, we propose a data-space variant of ABIC, termed DABIC, and the data-space inversion based on DABIC is referred to as D-DABIC inversion method.
 
 For details on the methodology and workflow of the D-DABIC inversion method, please refer to:\
@@ -14,7 +14,7 @@ Except for the method used to determine the regularization parameter, all other 
 
 
 ## Release note
-***v1.3*** Sep. 11, 2025: Introduced a reference model (mr) into the inversion optimization workflow, which enables implementing Depth of Investigation (DOI) for model appraisal.
+***v1.3*** Sep. 11, 2025: Introduced a reference model (mr) into the inversion optimization workflow, which enables implementing depth of investigation (DOI) for model appraisal.
 
 ***v1.2*** Dec. 30, 2024: Added support for the Laplacian Filter (LF) in the maximization of the marginal likelihood function.
 
