@@ -10,8 +10,11 @@ For details on the methodology and workflow of the D-DABIC inversion method, ple
 For more information about the original FEMTIC code (e.g., forward modeling, mesh design), please refer to the FEMTIC repository: https://github.com/yoshiya-usui/femtic.
 
 ## Release note
-***v1.3*** Sep. 11, 2025: Introduced a reference model (mr) into the inversion optimization workflow, which enables implementing depth of investigation (DOI) for model appraisal.
 
-***v1.2*** Dec. 30, 2024: Added support for the Laplacian Filter (LF) in the maximization of the marginal likelihood function.
+***v1.3*** Sep. 11, 2025: Added Minimum Norm (MN) Stabilizer with Depth of Investigation (DOI) Support. Introduced a new regularization option (|m - m_r|) to constrain inversion toward a reference model (m_r); the primary purpose of this option (for now) is to enable DOI analysis for model appraisal.
 
-***v1.1*** Nov. 28, 2024: Basic version of FEMTIC-DABIC.
+***v1.2*** Sep. 11, 2025: Reference Model (m_r) Configuration Option. Added support for defining a user-provided reference model (m_r), enabling physics-based constraints in the inversion.
+
+***v1.1*** Dec. 30, 2024: Laplacian Filter (LF) for Marginal Likelihood Maximization. Enabled the LF as an alternative regularization during the D-DABIC optimization.
+
+***v1.0*** Nov. 28, 2024: Core FEMTIC-DABIC Framework. Implemented the data-space inversion method (D-DABIC) using the Akaike’s Bayesian Information Criterion (ABIC) for model selection.
