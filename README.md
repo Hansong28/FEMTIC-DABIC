@@ -11,7 +11,7 @@ For more information about the original FEMTIC code (e.g., forward modeling, mes
 
 ## Release note
 
-***v1.3*** Sep. 11, 2025: Added Minimum Norm (MN) Stabilizer with Depth of Investigation (DOI) Support. Introduced a new regularization option (|m - m_r|) to constrain inversion toward a reference model (m_r); the primary purpose of this option (for now) is to enable DOI analysis for model appraisal.
+***v1.3*** Sep. 13, 2025: Added Minimum Norm (MN) Stabilizer with Depth of Investigation (DOI) Support. Introduced a new regularization option (|m - m_r|) to constrain inversion toward a reference model (m_r); the primary purpose of this option (for now) is to enable DOI analysis for model appraisal.
 
 ***v1.2*** Sep. 11, 2025: Reference Model (m_r) Configuration Option. Added support for defining a user-provided reference model (m_r), enabling physics-based constraints in the inversion.
 
