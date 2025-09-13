@@ -1,13 +1,13 @@
 # FEMTIC-DABIC
-FEMTIC-DABIC is a 3-D magnetotelluric (MT) inversion code developed based on FEMTIC (v4.2).
+FEMTIC-DABIC is a 3-D magnetotelluric (MT) inversion code developed based on FEMTIC (v4.2). It is designed to find an optimal regularization parameter (*α*) and corresponding subsurface resistivity model that balances data fitting accuracy and model complexity from a statistical perspective.
 
-FEMTIC-DABIC employs the Brent line search algorithm in each iteration to identify the statistically optimal regularization parameter (*α*), which maximizes the marginal likelihood function—itself a function of *α*.\
-To quantify the magnitude of this marginal likelihood function, the Akaike’s Bayesian Information Criterion (ABIC) is used as a metric. Furthermore, to adapt ABIC for data-space inversion, we propose a data-space variant of ABIC, termed DABIC; the data-space inversion approach based on this DABIC is referred to as the D-DABIC inversion method.
+FEMTIC-DABIC leverages Akaike’s Bayesian Information Criterion (ABIC) to quantify the magnitude of the marginal likelihood function (a key metric in Bayesian theory, where higher values indicate a better hyperparameter  (i.e., *α* in this work) that balance data fitting and prior model information). To adapt ABIC to the data-space inversion, we propose a data-space variant of ABIC, termed DABIC. The 3-D MT inversion workflow built on this DABIC variant is referred to as the D-DABIC inversion method.
 
 For details on the methodology and workflow of the D-DABIC inversion method, please refer to:\
 *Song, H., Yu, P., Usui, Y., Uyeshima, M., Diba, D., & Zhang, L. (2025). Three-dimensional Magnetotelluric Inversion based on a Data Space variant of Akaike’s Bayesian Information Criterion. Geophysics, [Volume], [Issue], [Page Range].*
 
 For more information about the original FEMTIC code (e.g., forward modeling, mesh design), please refer to the FEMTIC repository: https://github.com/yoshiya-usui/femtic.
+
 
 ## Release note
 
