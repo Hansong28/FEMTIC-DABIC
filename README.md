@@ -17,4 +17,4 @@ For more information about the original FEMTIC code (e.g., forward modeling, mes
 
 ***v1.1*** Dec. 30, 2024: Laplacian Filter (LF) for Marginal Likelihood Maximization. Enabled the LF as an alternative regularization during the D-DABIC optimization.
 
-***v1.0*** Nov. 28, 2024: Core FEMTIC-DABIC Framework. Implemented the data-space inversion method (D-DABIC) using a data-space variant of the Akaike’s Bayesian Information Criterion (DABIC) for model selection.
+***v1.0*** Nov. 28, 2024: Core FEMTIC-DABIC Framework. Implemented a 3-D data-space inversion method using a data-space variant of the Akaike’s Bayesian Information Criterion (D-DABIC).
